@@ -18,3 +18,8 @@
 ## Stretch goals
 1. Features under cost centers
 2. Weekly / daily breakdown
+
+## Kanban Roles
+1. Specify
+2. Develop
+3. Deploy and Verify
