@@ -1,18 +1,20 @@
-Time tracking software
+# Time tracking software
 
-Kanban
-Constant integration
-Constant development
-Cloud based
+## Must use
+1. Kanban
+2. Constant integration
+3. Constant development
+4. Cloud based
 
-Add / remove users easily
-Admin role (adds users and cost centers)
-PM role (sees all users)
-Multiple projects / cost centers
-Personal project cost center (20% time)
-5 minute granularity
-"Start Button" / "End Button" with fillable field for end time
+## Features
+1. Add / remove users easily
+2. Admin role (adds users and cost centers)
+3. PM role (sees all users)
+4. Multiple projects / cost centers
+5. Personal project cost center (20% time)
+6. 5 minute granularity
+7. "Start Button" / "End Button" with fillable field for end time
 
-stretch goals:
-  Features under cost centers
-  Weekly / daily breakdown
+## Stretch goals
+1. Features under cost centers
+2. Weekly / daily breakdown
