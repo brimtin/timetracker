@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace DBStructure
+namespace TimeDB
 {
     class TimeTracker : DbContext
     {
