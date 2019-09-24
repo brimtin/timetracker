@@ -10,7 +10,7 @@ using TimeDB;
 namespace Tracker.Model.Migrations
 {
     [DbContext(typeof(TimeTracker))]
-    [Migration("20190924152632_InitialCreate")]
+    [Migration("20190924165748_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

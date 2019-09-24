@@ -3577,24 +3577,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ibrah\\.nuget\\packages\\": {},
+    "C:\\Users\\dilsh\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ibrah\\OneDrive\\Desktop\\TimeTracker\\timetracker\\DBStructure\\TimeTracker.Model\\TimeTracker.Model\\Tracker.Model.csproj",
+      "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\timetracker\\DBStructure\\TimeTracker.Model\\TimeTracker.Model\\Tracker.Model.csproj",
       "projectName": "Tracker.Model",
-      "projectPath": "C:\\Users\\ibrah\\OneDrive\\Desktop\\TimeTracker\\timetracker\\DBStructure\\TimeTracker.Model\\TimeTracker.Model\\Tracker.Model.csproj",
-      "packagesPath": "C:\\Users\\ibrah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ibrah\\OneDrive\\Desktop\\TimeTracker\\timetracker\\DBStructure\\TimeTracker.Model\\TimeTracker.Model\\obj\\",
+      "projectPath": "C:\\Users\\dilsh\\source\\repos\\timetracker\\DBStructure\\TimeTracker.Model\\TimeTracker.Model\\Tracker.Model.csproj",
+      "packagesPath": "C:\\Users\\dilsh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dilsh\\source\\repos\\timetracker\\DBStructure\\TimeTracker.Model\\TimeTracker.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ibrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dilsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
