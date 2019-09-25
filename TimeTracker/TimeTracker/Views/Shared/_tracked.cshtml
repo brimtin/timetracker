@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@model string
+
+<div class="row">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="dropdown col-12 pb-3">
+            <button class="btn btn-secondary dropdown-toggle btn-lg btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                @(String.IsNullOrEmpty(Model) ? "Please select cost center" : Model)
+            </button>
+            <div class="dropdown-menu btn-block" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="Home" asp-action="Index" asp-route-costCenter="Cost Center 1">Cost Center 1</a>
+                <a class="dropdown-item" href="#">Cost Center 2</a>
+                <a class="dropdown-item" href="#">Cost Center 3</a>
+            </div>
+        </div>
+
+        <div class="col-6 pb-3">
+            <button type="button" class="btn btn-primary btn-lg btn-block">Start</button>
+        </div>
+        <div class="col-6 pb-3">
+            <button type="button" class="btn btn-danger btn-lg btn-block">Stop</button>
+        </div>
+
+        <div class="col-3 pb-3">
+            <h1>Start:</h1>
+        </div>
+
+        <div class="col-9 pb-3">
+            @{
+                var startTime = DateTime.Now.ToLongTimeString();
+            }
+            <h1>@startTime</h1>
+        </div>
+
+        <div class="col-3 pb-3">
+            <h1>End:</h1>
+        </div>
+
+        <div class="col-9 pb-3">
+            @{
+                var duration = new TimeSpan(0, 0, 15, 0);
+                
+                var endTime = DateTime.Now.Add(duration).ToLongTimeString();
+            }
+            <h1>@endTime</h1>
+        </div>
+    }
+    else
+    {
+        <div class="col-12">
+            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Login">
+                <button type="button" class="btn btn-primary btn-lg btn-block">
+                    Please log in to track
+                </button>
+            </a>
+        </div>
+    }
+</div>

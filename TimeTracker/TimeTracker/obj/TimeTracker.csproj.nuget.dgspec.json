@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj": {}
+    "C:\\Users\\wwstudent\\Desktop\\timeTracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj": {
+    "C:\\Users\\wwstudent\\Desktop\\timeTracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
+        "projectUniqueName": "C:\\Users\\wwstudent\\Desktop\\timeTracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
         "projectName": "TimeTracker",
-        "projectPath": "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
-        "packagesPath": "C:\\Users\\dilsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\obj\\",
+        "projectPath": "C:\\Users\\wwstudent\\Desktop\\timeTracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
+        "packagesPath": "C:\\Users\\wwstudent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wwstudent\\Desktop\\timeTracker\\TimeTracker\\TimeTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\dilsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\wwstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

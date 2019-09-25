@@ -10,7 +10,17 @@ namespace TimeTracker.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string costCenter)
+        {
+            return View((object)costCenter);
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult Track()
         {
             return View();
         }
