@@ -12,11 +12,4 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
-
-  <ItemGroup>
-    <Reference Include="Tracker.Model">
-      <HintPath>..\..\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Release\netcoreapp2.2\Tracker.Model.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
