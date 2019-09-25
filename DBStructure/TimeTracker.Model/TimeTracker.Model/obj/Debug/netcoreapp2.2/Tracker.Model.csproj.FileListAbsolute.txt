@@ -1,14 +1,3 @@
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.deps.json
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.runtimeconfig.json
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.runtimeconfig.dev.json
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.dll
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.pdb
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\obj\Debug\netcoreapp2.2\Tracker.Model.csprojAssemblyReference.cache
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\obj\Debug\netcoreapp2.2\Tracker.Model.csproj.CoreCompileInputs.cache
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\obj\Debug\netcoreapp2.2\Tracker.Model.AssemblyInfoInputs.cache
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\obj\Debug\netcoreapp2.2\Tracker.Model.AssemblyInfo.cs
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\obj\Debug\netcoreapp2.2\Tracker.Model.dll
-C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\obj\Debug\netcoreapp2.2\Tracker.Model.pdb
 C:\Users\dilsh\source\repos\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.deps.json
 C:\Users\dilsh\source\repos\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.runtimeconfig.json
 C:\Users\dilsh\source\repos\timetracker\DBStructure\TimeTracker.Model\TimeTracker.Model\bin\Debug\netcoreapp2.2\Tracker.Model.runtimeconfig.dev.json
