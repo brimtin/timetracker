@@ -10,8 +10,12 @@ namespace TimeTracker.Data
         public Tracker(DbContextOptions<Tracker> options)
             : base(options)
         {
+            Database.EnsureCreated();
         }
-
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    base.OnModelCreating(builder);
+        //}
         public DbSet<Login> Logins { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<ProjectManager> ProjectManagers { get; set; }
@@ -20,8 +24,14 @@ namespace TimeTracker.Data
         public DbSet<Client> Clients { get; set; }
 
     }
-
-
+    //public class User : IdentityUser
+    //{
+    //    public int Year { get; set; }
+    //}
+    //public class ApplicationUser : IdentityUser
+    //{
+    //    public int Year { get; set; }   // год рождения
+    //}
     public class Login
     {
         public int LoginID { get; set; }
