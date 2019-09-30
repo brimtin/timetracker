@@ -28,7 +28,7 @@ namespace TimeTracker.Controllers
         {
             if (ModelState.IsValid)
             {
-                IdentityUser user = new IdentityUser { Email = model.Email, UserName = model.Email };
+                IdentityUser user = new IdentityUser { Email = model.Email, UserName = model.Email, PhoneNumber=model.Phone};
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -52,7 +52,7 @@ namespace TimeTracker.Controllers
             {
                 return NotFound();
             }
-            EditUserViewModel model = new EditUserViewModel { Id = user.Id, Email = user.Email };
+            EditUserViewModel model = new EditUserViewModel { Id = user.Id, Email = user.Email, Phone=user.PhoneNumber };
             return View(model);
         }
 
@@ -66,7 +66,7 @@ namespace TimeTracker.Controllers
                 {
                     user.Email = model.Email;
                     user.UserName = model.Email;
-                    //user.Year = model.Year;
+                    user.PhoneNumber = model.Phone;
 
                     var result = await _userManager.UpdateAsync(user);
                     if (result.Succeeded)
