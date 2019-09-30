@@ -38,11 +38,18 @@ namespace TimeTracker
             services.AddDbContext<Tracker>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<Tracker>()
-                .AddDefaultTokenProviders();
 
+            //services.AddIdentity<User, IdentityRole>()
+            //        .AddEntityFrameworkStores<Tracker>();
+
+
+
+            //services.AddDefaultIdentity<IdentityUser>()
+            //    .AddDefaultUI(UIFramework.Bootstrap4)
+            //    .AddEntityFrameworkStores<Tracker>()
+            //    .AddDefaultTokenProviders();
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                    .AddEntityFrameworkStores<Tracker>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
