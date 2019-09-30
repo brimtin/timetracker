@@ -130,8 +130,6 @@ C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcor
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
-C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
-C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.g.cshtml.cs
