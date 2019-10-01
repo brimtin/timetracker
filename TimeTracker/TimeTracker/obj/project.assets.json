@@ -12937,27 +12937,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dilsh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\ibrah\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
+      "projectUniqueName": "C:\\Users\\ibrah\\OneDrive\\Desktop\\TimeTracker\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
       "projectName": "TimeTracker",
-      "projectPath": "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
-      "packagesPath": "C:\\Users\\dilsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilsh\\source\\repos\\timetracker\\TimeTracker\\TimeTracker\\obj\\",
+      "projectPath": "C:\\Users\\ibrah\\OneDrive\\Desktop\\TimeTracker\\timetracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
+      "packagesPath": "C:\\Users\\ibrah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ibrah\\OneDrive\\Desktop\\TimeTracker\\timetracker\\TimeTracker\\TimeTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dilsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ibrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<TimeTracker.Data.Client>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Customers";
 }
 
-<h1>Index</h1>
+<h1>Customers</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -38,7 +38,7 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ClientID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ClientID">Details</a> |
+                <a asp-controller="Projects" asp-action="Index" asp-route-id="@item.ClientID">Projects</a> |
                 <a asp-action="Delete" asp-route-id="@item.ClientID">Delete</a>
             </td>
         </tr>
