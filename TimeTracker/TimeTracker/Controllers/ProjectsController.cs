@@ -17,9 +17,15 @@ namespace TimeTracker.Controllers
             this.tracker = tracker;
         }
         // GET: Projects
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
-            return View(tracker.Projects);
+            var project = tracker.Projects.Where(x => x.ClientID == id);
+            //if (customer == null)
+            //{
+            //    return NotFound();
+            //}
+           // Project model = new Project { ProjectID = customer.ProjectID, CompanyName = customer.CompanyName, CompanyPhone = customer.CompanyPhone, CompanyPoc = customer.CompanyPoc };
+            return View(project);
         }
 
         // GET: Projects/Details/5
