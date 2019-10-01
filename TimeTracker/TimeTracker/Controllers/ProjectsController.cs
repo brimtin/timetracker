@@ -19,7 +19,7 @@ namespace TimeTracker.Controllers
         // GET: Projects
         public ActionResult Index(int id)
         {
-            var project = tracker.Projects.Where(x => x.ClientID == id);
+            var project = tracker.Projects.Where(x => x.ProjectID == id);
             //if (customer == null)
             //{
             //    return NotFound();
@@ -51,9 +51,6 @@ namespace TimeTracker.Controllers
                 tracker.Projects.Add(project);
                 tracker.SaveChanges();
                 return RedirectToAction("Index");
-
-          
-
             }
             catch
             {
@@ -93,7 +90,7 @@ namespace TimeTracker.Controllers
         // POST: Projects/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult AddUsers(int id, IFormCollection collection)
         {
             try
             {

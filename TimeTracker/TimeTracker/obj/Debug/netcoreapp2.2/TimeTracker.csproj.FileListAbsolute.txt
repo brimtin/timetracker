@@ -219,3 +219,4 @@ C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\TimeTracker\TimeTracker\
 C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\TimeTracker.csproj.CopyComplete
 C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Index.g.cshtml.cs
 C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Create.g.cshtml.cs
+C:\Users\ibrah\OneDrive\Desktop\TimeTracker\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Projects\Edit.g.cshtml.cs
