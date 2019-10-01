@@ -138,3 +138,6 @@ C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcor
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.g.cshtml.cs
 C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.g.cshtml.cs
+C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Customer\Index.g.cshtml.cs
+C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Customer\Create.g.cshtml.cs
+C:\Users\dilsh\source\repos\timetracker\TimeTracker\TimeTracker\obj\Debug\netcoreapp2.2\Razor\Views\Customer\Edit.g.cshtml.cs
